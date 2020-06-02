@@ -1,4 +1,4 @@
-body {
+/* body {
   visibility: hidden;
 }
 .App {
@@ -15,7 +15,7 @@ p {
 }
 
 .App-header {
-  /* background-color: #282c34; */
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -66,10 +66,4 @@ p {
   right: 0;
   background: #fff;
   z-index: 1;
-}
-
-/* .img-container img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
 } */

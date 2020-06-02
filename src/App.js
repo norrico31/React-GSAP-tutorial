@@ -4,7 +4,8 @@ import React from 'react';
 import './App.css';
 // import { TweenMax, Power3 } from 'gsap';
 // import AnimationOne from './components/AnimationOne';
-import ImageRevealOne from './components/Image Reveal/ImageRevealOne';
+// import ImageRevealOne from './components/Image Reveal/ImageRevealOne';
+import ImageSlide from './components/Image Slider/ImageSlider';
 
 function App() {
   // let logoItem = useRef(null);
@@ -32,7 +33,8 @@ function App() {
           Learn React
         </a> */}
       {/* <AnimationOne /> */}
-      <ImageRevealOne />
+      {/* <ImageRevealOne /> */}
+      <ImageSlide />
       </header>
     </div>
   );
