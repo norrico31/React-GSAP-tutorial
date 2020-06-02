@@ -1,3 +1,6 @@
+body {
+  visibility: hidden;
+}
 .App {
   text-align: center;
 }
@@ -5,16 +8,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  opacity: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  opacity: 0;
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +37,39 @@
     transform: rotate(360deg);
   }
 }
+.circle-container {
+  visibility: hidden;
+}
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background: #fdcf51;
+  margin: 50px;
+}
+.circle.red {
+  background: red;
+}
+.circle.blue {
+  background: blue;
+}
+.img-container {
+    overflow: hidden;
+    position: relative;
+}
+.img-container:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+/* .img-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+} */

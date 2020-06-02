@@ -1,13 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+// import React, { useRef, useEffect } from 'react';
+// import logo from './logo.svg';
 import './App.css';
+// import { TweenMax, Power3 } from 'gsap';
+// import AnimationOne from './components/AnimationOne';
+import ImageRevealOne from './components/Image Reveal/ImageRevealOne';
 
 function App() {
+  // let logoItem = useRef(null);
+  // let textItem = useRef(null);
+
+  // useEffect(() => {
+  //   // console.log(logoItem);
+  //   TweenMax.to(logoItem, .8, { opacity: 1, y: -20, ease: Power3.easeInOut });
+  //   TweenMax.to(textItem, .8, { opacity: 1, y: -20, ease: Power3.easeInOut, delay: .2 })
+  // }, [])
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <img src={logo} ref={(el) => {logoItem = el}} className="App-logo" alt="logo" />
+        <p ref={(el) => { textItem = el}}>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -17,7 +30,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+      {/* <AnimationOne /> */}
+      <ImageRevealOne />
       </header>
     </div>
   );
