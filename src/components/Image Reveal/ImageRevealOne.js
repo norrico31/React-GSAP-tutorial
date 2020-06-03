@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import Img1 from './Img/img.jpg';
-import CSSRulePlugin from 'gsap/CSSRulePlugin';
-import { TimelineLite, Power2 } from 'gsap';
+import { TimelineLite, Power2, CSSRulePlugin } from 'gsap/all';
 
 const ImageRevealOne = () => {
     let container = useRef(null);

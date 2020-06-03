@@ -5,7 +5,10 @@ import './App.css';
 // import { TweenMax, Power3 } from 'gsap';
 // import AnimationOne from './components/AnimationOne';
 // import ImageRevealOne from './components/Image Reveal/ImageRevealOne';
-import ImageSlide from './components/Image Slider/ImageSlider';
+// import ImageSlide from './components/Image Slider/ImageSlider';
+// import Hero from './components/Hero Section/Hero';
+import Scroll from './components/Intersection Observer/Scroll';
+
 
 function App() {
   // let logoItem = useRef(null);
@@ -34,7 +37,9 @@ function App() {
         </a> */}
       {/* <AnimationOne /> */}
       {/* <ImageRevealOne /> */}
-      <ImageSlide />
+      {/* <ImageSlide /> */}
+      {/* <Hero /> */}
+      <Scroll />
       </header>
     </div>
   );
